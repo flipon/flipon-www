@@ -14,11 +14,12 @@ html {
 
 html, body {
   height: 100%;
+  color: #FFFFFF;
 }
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #8DCBED;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -56,7 +57,7 @@ a {
 }
 
 .logo-div {
-  text-align: center";
+  text-align: center;
 }
 
 .logo {
@@ -65,7 +66,34 @@ a {
 }
 
 .links {
-  
+  text-align: center;
+}
+
+.links ul {
+
+}
+
+.links ul li {
+  display:inline-block;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+  background-image: url("../images/btn01.png");
+  background-repeat: no-repeat;
+  background-size: 70px 42px;
+}
+
+.link-steam {
+  background-image: url("../images/btn01.png");
+}
+.link-eshop {
+  background-image: url("../images/btn02.png");
+}
+.link-ios {
+  background-image: url("../images/btn03.png");
+}
+.link-android {
+  background-image: url("../images/btn04.png");
 }
 
 /**************************************************************
@@ -85,7 +113,6 @@ a {
   /* Text style */
   font-size: 12px;
   font-weight: 100;
-  font-family: Hack, monospace;
   color: #BBBBBB;
 }
 
