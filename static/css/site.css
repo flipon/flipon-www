@@ -65,12 +65,16 @@ a {
   height: auto;
 }
 
+.trailer {
+  text-align: center;
+}
+
 .links {
   text-align: center;
 }
 
 .links ul {
-
+  list-style:none;
 }
 
 .links ul li {
@@ -78,22 +82,33 @@ a {
   color: #FFFFFF;
   text-transform: uppercase;
   text-align: center;
-  background-image: url("../images/btn01.png");
-  background-repeat: no-repeat;
-  background-size: 70px 42px;
+  width: 20%;
+  height: 25pt;
+}
+
+.link {
+  text-align:center;
 }
 
 .link-steam {
   background-image: url("../images/btn01.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .link-eshop {
   background-image: url("../images/btn02.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .link-ios {
   background-image: url("../images/btn03.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .link-android {
   background-image: url("../images/btn04.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /**************************************************************
