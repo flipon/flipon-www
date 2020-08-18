@@ -3,12 +3,12 @@
  **************************************************************/
 @font-face {
   font-family: Walibi;
-  src: url(static/fonts/walibi.ttf);
+  src: url(../fonts/walibi.ttf);
 }
 
 html {
   font-family: 'Walibi';
-  background-image: url("static/images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: repeat;
 }
 
