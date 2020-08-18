@@ -55,8 +55,13 @@ a {
   margin-bottom: 50px;
 }
 
+.logo-div {
+  text-align: center";
+}
+
 .logo {
-  width: 650px;
+  max-width: 70%;
+  height: auto;
 }
 
 /**************************************************************

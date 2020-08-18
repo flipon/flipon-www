@@ -36,24 +36,27 @@
 <body>
     <div class="page">
         <header class="page-header">
-            <img class="logo" src="static/images/logo.png" alt="Flipon logo" />
+            <div class="logo-div">
+                <img class="logo" src="static/images/logo.png" alt="Flipon logo" />
+            </div>
         </header>
         <main class="page-content">
 
             <div class="links">
-                <a class="link-steam" href="https://store.steampowered.com/app/1285020/Flipon/">Steam</a>
-                <a class="link-eshop" href="#">eShop</a>
-                <a class="link-ios" href="#">iOS</a>
-                <a class="link-android" href="#">Android</a>
+                <ul>
+                    <li><a class="link-steam" href="https://store.steampowered.com/app/1285020/Flipon/">Steam</a></li>
+                    <li><a class="link-eshop" href="#">eShop</a></li>
+                    <li><a class="link-ios" href="#">iOS</a></li>
+                    <li><a class="link-android" href="#">Android</a></li>
+                </ul>
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/iBG9yqcXB-4" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="trailer">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iBG9yqcXB-4" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
 
-
-        </main>
-        <footer class="page-footer">
             <!-- Team -->
             <div class="team">
                 <p>A game by:</p>
@@ -71,6 +74,11 @@
                     <li>Plug-In-Digital</li>
                 </ul>
             </div>
+
+        </main>
+
+        <footer class="page-footer">
+            <p>Copyright Damien Mayance 2020 - 2042</p>
         </footer>
 
 
