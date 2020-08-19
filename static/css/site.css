@@ -3,8 +3,11 @@
  **************************************************************/
 
 @font-face {
-  font-family: Walibi;
-  src: url(../fonts/walibi.ttf);
+  font-family: 'Walibi';
+  src: url('../fonts/walibi-webfont.woff2') format('woff2'),
+    url('../fonts/walibi-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
