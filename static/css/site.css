@@ -135,6 +135,7 @@ a:hover {
 }
 
 .link:hover {
+  color: white;
   transform: scale(1.1) translateY(-1px);
 }
 
