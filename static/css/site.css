@@ -128,7 +128,11 @@ a {
   text-transform: uppercase;
   text-align: center;
 
-  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.link:hover {
+  transform: scale(1.1) translateY(-1px);
 }
 
 .link-icon {
