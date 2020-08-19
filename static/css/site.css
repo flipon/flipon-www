@@ -1,7 +1,8 @@
 /**************************************************************
  * Global
  **************************************************************/
- @font-face {
+
+@font-face {
   font-family: Walibi;
   src: url(../fonts/walibi.ttf);
 }
@@ -15,26 +16,28 @@ html {
   font-family: 'Rubick';
   background: rgb(34, 34, 34) none repeat scroll 0% 0%;
   background-repeat: repeat;
-  background-image: url("../images/background.png");
+  background-image: url('../images/background.png');
 }
 
-html, body {
+html,
+body {
   height: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 h1 {
   text-align: center;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Walibi';
   text-transform: uppercase;
 }
 
 a {
   text-decoration: none;
-  color: #8DCBED;
+  color: #8dcbed;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -44,19 +47,19 @@ a {
  **************************************************************/
 
 .page {
-   max-width: 650px;
+  max-width: 650px;
 
-   padding: 0 20px;
-   margin-left: auto;
-   margin-right: auto;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
 
-   position: relative;
-   min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 .page::after {
   display: block;
-  content: "";
+  content: '';
   padding-bottom: 100px;
 }
 
@@ -101,12 +104,12 @@ a {
 }
 
 .links ul {
-  list-style:none;
+  list-style: none;
   padding: 0 0 0 0;
 }
 
 .links ul li {
-  display:inline-block;
+  display: inline-block;
   text-transform: uppercase;
   text-align: center;
   width: 140px;
@@ -120,7 +123,7 @@ a {
 }
 
 .link a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .link-icon {
@@ -128,22 +131,22 @@ a {
 }
 
 .link-steam {
-  background-image: url("../images/btn01.png");
+  background-image: url('../images/btn01.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .link-eshop {
-  background-image: url("../images/btn02.png");
+  background-image: url('../images/btn02.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .link-ios {
-  background-image: url("../images/btn03.png");
+  background-image: url('../images/btn03.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .link-android {
-  background-image: url("../images/btn04.png");
+  background-image: url('../images/btn04.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -168,8 +171,8 @@ a {
 /**************************************************************
  * Footer
  **************************************************************/
-.page-footer {
 
+.page-footer {
   /* Page's bottom */
   position: absolute;
   bottom: 0;
@@ -182,7 +185,7 @@ a {
   /* Text style */
   font-size: 12px;
   font-weight: 100;
-  color: #BBBBBB;
+  color: #bbbbbb;
 }
 
 .page-footer p {
