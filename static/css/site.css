@@ -104,30 +104,36 @@ a {
 }
 
 .links ul {
+  display: flex;
+
+  justify-content: space-between;
+
   list-style: none;
   padding: 0 0 0 0;
 }
 
-.links ul li {
-  display: inline-block;
+.link {
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 150px;
+  height: 25pt;
+
+  padding: 0.2rem 0.15rem 0.5rem;
+
+  font-family: 'Walibi';
   text-transform: uppercase;
   text-align: center;
-  width: 140px;
-  height: 25pt;
-  font-family: 'Walibi';
-}
 
-.link {
-  padding: 0.2rem 0.15rem 0.5rem;
   transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
-}
-
-.link a {
-  color: #ffffff;
 }
 
 .link-icon {
   width: 26px;
+  margin-right: 6px;
 }
 
 .link-steam {
@@ -145,6 +151,12 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
+.link-ios .link-icon {
+  position: relative;
+  top: -1px;
+}
+
 .link-android {
   background-image: url('../images/btn04.png');
   background-repeat: no-repeat;
