@@ -7,13 +7,8 @@
   src: url(../fonts/walibi.ttf);
 }
 
-@font-face {
-  font-family: Rubick;
-  src: url(../fonts/rubick.ttf);
-}
-
 html {
-  font-family: 'Rubick';
+  font-family: 'Rubik', sans-serif;
   background: rgb(34, 34, 34) none repeat scroll 0% 0%;
   background-repeat: repeat;
   background-image: url('../images/background2.jpg');
