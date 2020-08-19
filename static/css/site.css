@@ -168,12 +168,25 @@ a {
 }
 
 .screenshots {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.screenshots a {
+  display: block;
+  width: 40%;
+  margin: 5px 5px 5px 5px;
+
+  transition: all 0.2s ease-out;
+}
+
+.screenshots a:hover {
+  transform: scale(1.1);
 }
 
 .screenshots img {
-  width: 40%;
-  margin: 5px 5px 5px 5px;
+  width: 100%;
 }
 
 .heroes {
