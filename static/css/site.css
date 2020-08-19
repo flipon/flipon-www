@@ -38,8 +38,11 @@ h2 {
 a {
   text-decoration: none;
   color: #8dcbed;
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
+  transition: all 0.25s ease-in;
+}
+
+a:hover {
+  color: #5da9d3;
 }
 
 /**************************************************************
