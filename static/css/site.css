@@ -153,8 +153,13 @@ a:hover {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.link-ios {
-  background-image: url('../images/btn03.png');
+.link-eshop {
+  background-image: url('../images/btn02.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.link-discord {
+  background-image: url('../images/btn05.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
