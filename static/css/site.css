@@ -169,6 +169,12 @@ a:hover {
   top: -1px;
 }
 
+.link-ios {
+  background-image: url('../images/btn06.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .link-android {
   background-image: url('../images/btn04.png');
   background-repeat: no-repeat;
