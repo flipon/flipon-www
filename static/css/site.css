@@ -181,6 +181,12 @@ a:hover {
   background-size: 100% 100%;
 }
 
+.link-editor {
+  background-image: url('../images/btn07.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .screenshots {
   display: flex;
   flex-wrap: wrap;
